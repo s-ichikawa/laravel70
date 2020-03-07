@@ -61,15 +61,8 @@ return [
             'transport' => 'array',
         ],
 
-
         'sendgrid' => [
             'transport' => 'sendgrid',
-            'api_key' => env('SENDGRID_API_KEY'),
-            'version' => 'v3',
-            'templates' => [
-                'sample' => '0f35ca1c-db1f-4953-98ab-7aeeb73d1818',
-                'dynamic_sample' => 'd-b0a8e8e17ec44224a7d2da8c23fc7d23',
-            ],
         ],
     ],
 
